@@ -1,0 +1,32 @@
+#b{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWfthqFBiZ_Ngp18JmVanlm1r0pj5rAzOE4Q&s);
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+.a{
+    color:black;
+    text-decoration: none;
+    padding: 10px;
+    /* position: absolute;
+    top: 40px;
+    right: 50px; */
+}
+#pro{
+    position: absolute;
+    right: 100px;
+    top: 40px;
+}
+h1{
+    position: absolute;
+    left: 50px;
+}
+h2{
+    color: white;
+}
+#c{
+    position: relative;
+    top: 300px;
+    left: 300px;
+
+}

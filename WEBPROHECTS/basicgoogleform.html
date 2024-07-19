@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google form</title>
+    <style>
+        body{
+            background-color: rgb(212, 212, 212);
+            text-align: center;
+            padding: 200px 200px 200px 200px;
+        }
+            #form{
+                height: 700px;
+                width: 300px;
+                background-color: white;
+            } 
+            #f{
+                height: 100px;
+            }          
+        
+    </style>
+</head>
+<body>
+    <div id="form">
+        <h3>Sign up</h3>
+       Name:
+       <br>
+       <input type="text" placeholder="full name">
+        <br>
+        <br>
+        email:
+        <br>
+        <input type="text" placeholder="gmail id">
+        <br>
+        <br>
+        password:
+        <br>
+        <input type="password" placeholder="8 characters">
+        <br><br>
+        comform password:
+        <br>
+        <input type="password" placeholder="8 characters">
+        <br>
+        <br>
+        Date of birth:
+        <br>
+        <input type="text" placeholder="dd/mm/yyyy">
+        <br><br>
+        Gender:
+        <br>
+        <label for="a">
+        <input type="radio" value="Male" name="Gender" id="a">Male 
+    </label>
+    <label for="b"> 
+        <input type="radio" value="Female" name="Gender" id="b">Female
+    </label>
+    <label for="c">
+        <input type="radio" value="other" name="Gender" id="c">Other
+    </label>
+    <br><br>
+    Insert your photo:
+    <br>
+    <button>choose file</button>No file choosen
+    <br><br>
+    Insret your resume:
+    <br>
+    <button>choose file</button>No file choosen
+    <br><br>
+    Security Qusestion:
+    <br>
+    <select name="select" id="d">
+        <option value="problem1">problem1</option>
+        <option value="problem2">problem2</option>
+        <option value="problem3">problem3</option>
+    </select>
+     <br><input type="text" placeholder="fedback" id="f">
+     <br><br>
+     <input type="checkbox">I agree and conditions
+     <br>
+     <button>Register</button>
+   </div>
+</body>
+</html>

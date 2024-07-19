@@ -1,0 +1,66 @@
+.login-form{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    text-align: center;
+  background-color: white;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(36, 216, 159);
+}
+.login{
+    width: 300px;
+    height: 60px;
+    background-color:rgb(51, 173, 118);
+    color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.email{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.person{
+    height: 25px;
+    width: 25px;
+    background-color:rgb(51, 173, 118) ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    height: 20px;
+}
+.lock{
+    height: 25px;
+    width: 25px;
+    background-color:rgb(51, 173, 118) ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.password{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    margin: 20px;
+    height: 25px;
+    width: 200px;
+    background-color:rgb(51, 173, 118) ;
+    border: 0cap;
+    color: white;
+}
+a{
+    text-decoration: none;
+}

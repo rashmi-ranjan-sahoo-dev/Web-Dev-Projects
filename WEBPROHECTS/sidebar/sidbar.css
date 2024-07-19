@@ -1,0 +1,219 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background:#ffffff url(background.png)  no-repeat ;
+    /* background-size:cover;
+    background-repeat: no-repeat; */
+    height:100vp;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* position: fixed;
+    left: -200px; */
+}
+.sidbar{
+    height: 40px;
+    width: 250px;
+    /*left: -200px;
+    text-align: center;
+    /* border-bottom: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5) ;
+    /* position: fixed;
+    left: -280px; */
+}
+.logo{
+    height: 800px;
+    width: 250px;
+    left: -200px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5) ;
+    /* position: fixed;
+    left: -280px; */
+    /* border: 1px solid transparent; */
+}
+/* logo:hover{
+    border: 1px solid #fff;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5) ;
+    
+} */
+li{
+    margin: 40px;
+    list-style:none;
+}
+a{
+    padding: 1vw 5vw;
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid transparent;
+    height: 80%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s linear;
+}
+a:hover{
+    border: 1px solid #fff;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 1) ;
+    opacity: 1;
+}
+.social_media{
+height: 100px;
+width: 200px;
+left: 200px;
+display: flex;
+justify-content:space-evenly;
+margin-top: 130px;
+}
+.social-child{
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid transparent; */
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+}
+/* .social-child:hover{
+    border: 1px solid white;
+} */
+.boboles img{
+ width: 50px;
+animation: boboles 6s linear infinite;
+}
+.boboles img:nth-child(1)
+{
+    animation-delay: 2s;
+}
+.boboles img:nth-child(2)
+{
+    animation-delay: 1.2s;
+}
+.boboles img:nth-child(3)
+{
+    animation-delay: 5.5s;
+}
+.boboles img:nth-child(4)
+{
+    animation-delay: 7s;
+}
+.boboles img:nth-child(5)
+{
+    animation-delay: 0.5s;
+}
+.boboles img:nth-child(6)
+{
+    animation-delay: 2.5s;
+}
+.boboles img:nth-child(7)
+{
+    animation-delay: 5s;
+}
+.boboles img:nth-child(8)
+{
+    animation-delay: 6s;
+}
+.boboles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    position: absolute;
+    bottom: 0;
+}
+@keyframes boboles {
+    0%{
+        transform: translateY(0);
+        opacity: 0;  
+    }
+    40%{
+        opacity: 1;  
+    }
+    70%{
+       
+        opacity: 1;  
+    }
+   100%{
+        transform: translateY(-80vh);
+        opacity: 0;  
+    }
+}
+button{
+    color: white;
+    position: absolute;
+    left: 80%;
+    top:80px;
+    border-radius: 20px;
+    background: transparent;
+    padding: 10px 25px;
+    border: 0.5px solid #fff;
+}
+button:hover{
+    border: 1px solid #fff;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 1) ;
+    opacity: 1;
+}
+#check{
+    display: none;
+}
+.btn1 i{
+    color:white;
+    font-size:30px;
+    font-weight: 700px;
+    position: absolute;
+    left: 16px;
+    line-height: 40px;
+    cursor:pointer;
+    opacity: 1;
+    transition: all 0.3s linear;
+}
+.main.btn2 i{
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+.btn1 i:hover{
+    font-size: 25px;
+}
+.btn2 i:hover{
+    font-size: 24px;
+}
+ /* #check:checked ~.sidbar .logo{
+    left: 0px;
+ }
+ #check:checked ~.btn1 i{
+    opacity: 0;
+ }
+ #check:checked ~.btn2 i{
+    opacity: 1;
+ }
+  */
+  .para
+  {
+    color: #fff;
+    position: absolute;
+    left: 71%;
+    top: 12%;
+  }
+  h1{
+    position:absolute;
+    left: 20%;
+    top: 15%;
+    color: white;
+    font-size: 60px;
+  }
+  h2{
+    position:absolute;
+    left: 30%;
+    top: 25%;
+    color: white;
+    font-size: 40px;
+  }
+
